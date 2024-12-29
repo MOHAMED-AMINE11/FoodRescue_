@@ -138,7 +138,7 @@ networks:
     driver: bridge 
 
 ```
-## Docker Image:Authentication Module
+## Docker Image:Application Features
 ```
 version: '3.8'
 
