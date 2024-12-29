@@ -328,7 +328,7 @@ https://github.com/user-attachments/assets/f481f4c3-043a-4330-b2bb-32f8201d656d
 
 # Contributing
 
-We welcome contributions from everyone, and we appreciate your help to make this project even better! If you would like to contribute, please follow these guidelines:
+We welcome contributions from everyone, and we appreciate your help to make this project even better! 
 
 
 ## Team
