@@ -324,8 +324,8 @@ Certainly! Here are step-by-step instructions to set up and run your project loc
 
 Click the link below to watch a demonstration video:
 
-https://github.com/user-attachments/assets/27fbd7a3-b5cb-43de-b612-77212b911b29
-
+[Video
+](https://github.com/user-attachments/assets/f481f4c3-043a-4330-b2bb-32f8201d656d)
 
 # Contributing
 
