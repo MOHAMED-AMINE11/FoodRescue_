@@ -326,7 +326,7 @@ Click the link below to watch a demonstration video:
 
 
 
-https://github.com/Hajarita12/RepositoryPFA24/assets/120518556/60b7d1c8-a5bd-47bd-aeaf-68fadc36bb47
+https://github.com/Hajarita12/RepositoryPFA24/assets/120518556/60b7d1c8-a5bd-47bd-aeaf-68fadc36bb47](https://github.com/user-attachments/assets/912ae6a9-f1ab-433c-825b-d362d99d9527
 # Contributing
 
 We welcome contributions from everyone, and we appreciate your help to make this project even better! If you would like to contribute, please follow these guidelines:
