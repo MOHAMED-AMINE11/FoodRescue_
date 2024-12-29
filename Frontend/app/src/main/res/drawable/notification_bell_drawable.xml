@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Bell Base -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M12,3C15.3137,3 18,5.68629 18,9V14.1716L20.4142,16.5858C20.7893,16.9609 21,17.4696 21,18C21,19.1046 20.1046,20 19,20H5C3.89543,20 3,19.1046 3,18C3,17.4696 3.21071,16.9609 3.58579,16.5858L6,14.1716V9C6,5.68629 8.68629,3 12,3Z" />
+
+    <!-- Bell Bottom -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M10,20V20.5C10,21.8807 11.1193,23 12.5,23C13.8807,23 15,21.8807 15,20.5V20" />
+
+    <!-- Notification Dot -->
+    <path
+        android:fillColor="#FF0D0D"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1"
+        android:pathData="M17,7m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0" />
+
+    <!-- Bell Inner Detail -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M12,3V7M9,14H15" />
+
+</vector>

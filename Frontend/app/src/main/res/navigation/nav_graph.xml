@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homePageFragment">
+
+    <fragment
+        android:id="@+id/DOnationFragmentPrincipalle"
+        android:name="abdellah.project.fooddonation.fragment.DOnationFragmentPrincipalle"
+        android:label="fragment_d_onation_principalle"
+        tools:layout="@layout/fragment_d_onation_principalle" >
+        <action
+            android:id="@+id/action_DOnationFragmentPrincipalle_to_infoDonation_"
+            app:destination="@id/infoDonation_" />
+    </fragment>
+    <fragment
+        android:id="@+id/infoDonation_"
+        android:name="abdellah.project.fooddonation.fragment.infoDonation_"
+        android:label="fragment_info_donation_"
+        tools:layout="@layout/fragment_info_donation_" >
+        <action
+            android:id="@+id/action_infoDonation__to_mapsFragment"
+            app:destination="@id/mapsFragment" />
+        <action
+            android:id="@+id/action_infoDonation__to_homePageFragment"
+            app:destination="@id/homePageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homePageFragment"
+        android:name="abdellah.project.fooddonation.fragment.HomePageFragment"
+        android:label="fragment_home_page"
+        tools:layout="@layout/fragment_home_page" >
+        <action
+            android:id="@+id/action_homePageFragment_to_DOnationFragmentPrincipalle"
+            app:destination="@id/DOnationFragmentPrincipalle" />
+        <action
+            android:id="@+id/action_homePageFragment_to_addFoodRescue"
+            app:destination="@id/addFoodRescue" />
+        <action
+            android:id="@+id/action_homePageFragment_to_infoDonation_"
+            app:destination="@id/infoDonation_" />
+        <action
+            android:id="@+id/action_homePageFragment_to_choiseFragement"
+            app:destination="@id/choiseFragement" />
+        <action
+            android:id="@+id/action_homePageFragment_to_associationListFragment"
+            app:destination="@id/associationListFragment" />
+        <action
+            android:id="@+id/action_homePageFragment_to_donateFragment2"
+            app:destination="@id/donateFragment2" />
+        <action
+            android:id="@+id/action_homePageFragment_to_userProfileFragment"
+            app:destination="@id/userProfileFragment" />
+        <action
+            android:id="@+id/action_homePageFragment_to_myHelpFragment"
+            app:destination="@id/myHelpFragment" />
+        <action
+            android:id="@+id/action_homePageFragment_to_notifFragment"
+            app:destination="@id/notifFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addFoodRescue"
+        android:name="abdellah.project.fooddonation.fragment.AddFoodRescue"
+        android:label="AddFoodRescue" />
+    <fragment
+        android:id="@+id/choiseFragement"
+        android:name="abdellah.project.fooddonation.fragment.ChoiseFragement"
+        android:label="ChoiseFragement" >
+        <action
+            android:id="@+id/action_choiseFragement_to_addFoodRescue"
+            app:destination="@id/addFoodRescue" />
+        <action
+            android:id="@+id/action_choiseFragement_to_associationListFragment"
+            app:destination="@id/associationListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="abdellah.project.fooddonation.fragment.MapsFragment"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps" />
+    <fragment
+        android:id="@+id/associationListFragment"
+        android:name="abdellah.project.fooddonation.fragment.AssociationListFragment"
+        android:label="AssociationListFragment" >
+        <action
+            android:id="@+id/action_associationListFragment_to_donFormFragment"
+            app:destination="@id/donFormFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/confirmationFragment"
+        android:name="abdellah.project.fooddonation.fragment.ConfirmationFragment"
+        android:label="ConfirmationFragment" >
+        <action
+            android:id="@+id/action_confirmationFragment_to_associationListFragment"
+            app:destination="@id/associationListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/donFormFragment"
+        android:name="abdellah.project.fooddonation.fragment.DonFormFragment"
+        android:label="DonFormFragment" >
+        <action
+            android:id="@+id/action_donFormFragment_to_confirmationFragment"
+            app:destination="@id/confirmationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/donateFragment2"
+        android:name="abdellah.project.fooddonation.fragment.DonateFragment"
+        android:label="fragment_donate"
+        tools:layout="@layout/fragment_donate" >
+        <action
+            android:id="@+id/action_donateFragment2_to_fragment_recieve_"
+            app:destination="@id/fragment_recieve_" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_recieve_"
+        android:name="abdellah.project.fooddonation.fragment.Fragment_recieve_"
+        android:label="fragment_recieve_"
+        tools:layout="@layout/fragment_recieve_" />
+    <fragment
+        android:id="@+id/userProfileFragment"
+        android:name="abdellah.project.fooddonation.fragment.UserProfileFragment"
+        android:label="UserProfileFragment" >
+        <action
+            android:id="@+id/action_userProfileFragment_to_editProfileFragment"
+            app:destination="@id/editProfileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editProfileFragment"
+        android:name="abdellah.project.fooddonation.fragment.EditProfileFragment"
+        android:label="EditProfileFragment" />
+    <fragment
+        android:id="@+id/myHelpFragment"
+        android:name="abdellah.project.fooddonation.fragment.MyHelpFragment"
+        android:label="fragment_my_help"
+        tools:layout="@layout/fragment_my_help" >
+        <action
+            android:id="@+id/action_myHelpFragment_to_mapsFragment"
+            app:destination="@id/mapsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/notifFragment"
+        android:name="abdellah.project.fooddonation.fragment.NotifFragment"
+        android:label="fragment_notif"
+        tools:layout="@layout/fragment_notif" />
+</navigation>

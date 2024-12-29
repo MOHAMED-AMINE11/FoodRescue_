@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/spacing_16"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="16dp"
+    app:strokeWidth="2dp"
+    app:strokeColor="@color/orange_light"
+    app:cardBackgroundColor="@color/white">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/spacing_16">
+
+        <!-- Image circulaire -->
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/itemImage"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:elevation="4dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:strokeWidth="2dp"
+            app:strokeColor="@color/orange"
+            app:shapeAppearanceOverlay="@style/CircularImageStyle" />
+
+        <!-- Titre -->
+        <TextView
+            android:id="@+id/nom"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_16"
+            android:layout_marginEnd="@dimen/spacing_16"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Donation Title"
+            android:textAppearance="?attr/textAppearanceTitleMedium"
+            android:textColor="@color/orange"
+            app:layout_constraintStart_toEndOf="@id/itemImage"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/itemImage" />
+
+        <!-- Description -->
+        <TextView
+            android:id="@+id/itemDescription"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_16"
+            android:layout_marginEnd="@dimen/spacing_16"
+            android:layout_marginTop="@dimen/spacing_8"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="Short description about the donation or the organization."
+            android:textAppearance="?attr/textAppearanceBodyMedium"
+            android:textColor="@color/gray_dark"
+            android:lineSpacingMultiplier="1.2"
+            app:layout_constraintStart_toEndOf="@id/itemImage"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/nom" />
+
+        <!-- Date Chip -->
+        <com.google.android.material.chip.Chip
+            android:id="@+id/dateChip"
+            android:layout_width="105dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="@dimen/spacing_16"
+            android:layout_marginTop="@dimen/spacing_8"
+            android:layout_marginEnd="@dimen/spacing_8"
+            app:chipBackgroundColor="@color/orange_light"
+            app:chipIcon="@drawable/ic_calendar"
+            app:chipIconTint="@color/orange"
+            android:textColor="@color/white"
+            app:ensureMinTouchTargetSize="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/getButton"
+            app:layout_constraintStart_toEndOf="@id/itemImage"
+            app:layout_constraintTop_toBottomOf="@id/itemDescription" />
+
+        <!-- Bouton Get donation -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/getButton"
+            style="@style/Widget.Material3.Button.TonalButton"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:text="Get donation"
+            app:iconGravity="textStart"
+            app:backgroundTint="@color/orange_500"
+            android:textColor="@color/white"
+            app:iconTint="@android:color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/dateChip"
+            app:layout_constraintTop_toTopOf="@id/dateChip"
+            app:layout_constraintBottom_toBottomOf="@id/dateChip" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

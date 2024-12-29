@@ -1,0 +1,11 @@
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="?android:attr/colorControlHighlight">
+    <item>
+        <shape>
+            <solid android:color="@android:color/white"/>
+            <corners
+                android:topLeftRadius="8dp"
+                android:bottomLeftRadius="8dp"/>
+        </shape>
+    </item>
+</ripple>

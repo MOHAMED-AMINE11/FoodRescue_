@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+        <!-- Primary Colors -->
+        <color name="primary">#2196F3</color>
+        <color name="primary_dark">#1976D2</color>
+        <color name="primary_light">#BBDEFB</color>
+    <color name="radio_button_tint">#DA9558</color>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colord">#C4BBB4</color>
+        <!-- Secondary Colors -->
+        <color name="secondary">#848484</color>
+        <color name="secondary_dark">#F50057</color>
+        <color name="secondary_light">#FF80AB</color>
+    <color name="surface_color">@android:color/white</color>
+    <color name="stroke_color1">#1F000000</color>
+    <color name="chip_background">#F3E5F5</color>
+        <!-- Text Colors -->
+        <color name="text_primary">#DE000000</color>
+        <color name="text_secondary">#99000000</color>
+        <color name="text_hint">#61000000</color>
+    <color name="gray">#61B8A18A</color>
+        <!-- Status Colors -->
+        <color name="success">#4CAF50</color>
+        <color name="error">#F44336</color>
+        <color name="warning">#FFC107</color>
+    <color name="badge_color">#FF4444</color>
+
+        <!-- Background Colors -->
+        <color name="background">#FFFFFF</color>
+        <color name="surface">#FFFFFF</color>
+        <color name="card_background">#FFFFFF</color>
+
+            <color name="primaryColor">#3F51B5</color>  <!-- Indigo -->
+            <color name="secondaryColor">#F5F5F5</color>  <!-- Light Grey -->
+    <color name="background_color">#FAFAFA</color>
+    <color name="primary_text">#DE000000</color>
+    <color name="secondary_text">#99000000</color>
+    <color name="stroke_color">#1F000000</color>
+    <color name="ripple_color">#1F000000</color>
+    <color name="holo_blue_dark">#FF0099CC</color>
+    <color name="primary1">#1976D2</color>
+    <color name="primary_dark2">#1565C0</color>
+    <color name="orange">#FF9800</color>
+    <color name="orange_light">#FFCC80</color>
+    <color name="gray_dark">#616161</color>
+    <color name="white">#FFFFFF</color>
+    <color name="light_primary">#1A6200EE</color>
+    <color name="grey">#757575</color>
+    <color name="transparent">#00000000</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="green_primary">#4CAF50</color>
+    <color name="green_dark">#388E3C</color>
+    <color name="green_light">#C8E6C9</color>
+    <color name="orange_primary">#FFA000</color>
+    <color name="orange_dark">#FF6F00</color>
+    <color name="background_light">#FAFAFA</color>
+    <color name="divider">#E0E0E0</color>
+    <color name="background_color1">#F5F5F5</color>
+    <color name="primary_color">#007AFF</color>
+    <color name="secondary_color">#B1AEAE</color>
+    <color name="text_color_title">#333333</color>
+    <color name="text_color_body">#666666</color>
+    <color name="text_color_caption">#999999</color>
+    <color name="button_confirm">#2196F3</color>
+    <color name="button_cancel">#9B9B9B</color>
+    <color name="button_text">#FFFFFF</color>
+
+    <color name="violet_500">#AB47BC</color>
+    <color name="blue_500">#42A5F5</color>
+    <color name="orange_400">#FB923C</color>
+    <color name="orange_500">#F97316</color>
+    <color name="green_500">#22C55E</color>
+    <color name="bottom_nav_colors">#EFFDF4</color>
+    <color name="food_rescue_yellow">#FFA000</color>
+    <color name="food_rescue_green">#4CAF50</color>
+        <color name="nav_inactive">#757575</color>
+    <color name="blue_primary">#2196F3</color>
+    <color name="blue_secondary">#1976D2</color>
+
+    <color name="red_important">#FF0000</color> <!-- Rouge vif -->
+
+    <color name="dark_orange">#FF8C00</color>
+
+
+</resources>

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.example.backend_pfm.BackendPfmApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.28 s -- in com.example.backend_pfm.BackendPfmApplicationTests

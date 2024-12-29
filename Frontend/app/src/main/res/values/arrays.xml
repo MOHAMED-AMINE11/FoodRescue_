@@ -1,0 +1,8 @@
+<resources>
+    <string-array name="unites_mesure">
+        <item>KG</item>
+        <item>Litres</item>
+        <item>Unités</item>
+        <item>Portions</item>
+    </string-array>
+</resources>

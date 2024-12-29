@@ -1,0 +1,12 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Couleur d'arrière-plan vive pour alerte -->
+    <solid android:color="@color/red_important" />
+
+    <!-- Coins arrondis -->
+    <corners android:radius="50dp" />
+
+    <!-- Bordure épaisse pour attirer l'attention -->
+    <stroke
+        android:width="2dp"
+        android:color="@color/white" />
+</shape>

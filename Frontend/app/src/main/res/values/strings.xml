@@ -1,0 +1,77 @@
+<resources>
+    <string name="new_food_donation">Sharing food, spreading love</string>
+    <string name="donation_icon_description">Icône de don</string>
+
+    <!-- Input Fields -->
+    <string name="description_hint">Description</string>
+    <string name="description_helper_text">Décrivez brièvement votre don</string>
+    <string name="food_name_hint">Nom de l\'aliment</string>
+    <string name="quantity_hint">Quantité</string>
+    <string name="unit_hint">Unité</string>
+    <string name="quality_hint">Qualité</string>
+    <string name="notes_hint">Notes supplémentaires</string>
+
+    <!-- Food Type Section -->
+    <string name="food_type_title">Type d\'aliment</string>
+    <string name="fresh_food">Frais</string>
+    <string name="prepared_food">Préparé</string>
+
+    <!-- Image Section -->
+    <string name="food_image_title">Photo de l\'aliment</string>
+    <string name="food_image_description">Aperçu de l\'image de l\'aliment</string>
+    <string name="choose_photo">Choisir une photo</string>
+
+    <!-- Location Section -->
+    <string name="pickup_location">Lieu de collecte</string>
+    <string name="map_description">Carte du lieu de collecte</string>
+    <string name="image_description">Image de profil utilisateur</string>
+    <string name="title">Nom de </string>
+    <string name="description">Description ou message</string>
+    <string name="donation_date">Date de don : 25/12/2024</string>
+    <!-- Buttons -->
+    <string name="publish_donation">Publier le don</string>
+    <string name="cancel">Annuler</string>
+    <string name="app_name">s</string>
+    <string name="hello_blank_fragment">Hello Blank Fragment</string>
+    <string name="no_data_available">Aucune donnée à afficher</string>
+    <string name="confirmed_message">Confirmé : %1$s</string>
+    <string name="cancelled_message">Annulé : %1$s</string>
+    <!-- Quality Options -->
+    <string-array name="quality_options">
+        <item>Excellente</item>
+        <item>Très bonne</item>
+        <item>Bonne</item>
+        <item>Acceptable</item>
+    </string-array>
+
+    <!-- Unit Options -->
+    <string-array name="unit_options">
+        <item>kg</item>
+        <item>g</item>
+        <item>L</item>
+        <item>unité(s)</item>
+    </string-array>
+
+    <string-array name="unit_list">
+        <item>kg</item>
+        <item>g</item>
+        <item>litre</item>
+        <item>ml</item>
+        <item>m²</item>
+        <item>cm²</item>
+        <item>pcs</item>
+        <item>boîte</item>
+    </string-array>
+    <string name="button_confirm">Confirmer</string>
+    <string name="button_cancel">Annuler</string>
+    <string name="default_user">Utilisateur</string>
+    <string name="default_description">Description du don</string>
+    <string name="date_format">Date : %1$s</string>
+    <!-- Strings -->
+
+    <string name="error_field_required">Ce champ est requis</string>
+    <string name="error_invalid_email">Cette adresse e-mail n est pas vide</string>
+    <string name="error_invalid_password">Le mot de passe doit contenir au moins 6 caractères</string>
+    <string name="error_invalid_phone">Numéro de téléphone non valide</string>
+    <string name="error_timeout">Une erreur est survenue lors !</string>
+</resources>

@@ -1,0 +1,45 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="margin_extra_small">4dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_large">24dp</dimen>
+    <dimen name="margin_extra_large">32dp</dimen>
+
+    <!-- Paddings -->
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">16dp</dimen>
+    <dimen name="padding_large">24dp</dimen>
+
+    <!-- Text Sizes -->
+    <dimen name="text_size_caption">12sp</dimen>
+    <dimen name="text_size_body">14sp</dimen>
+    <dimen name="text_size_subtitle">16sp</dimen>
+    <dimen name="text_size_title">20sp</dimen>
+    <dimen name="text_size_headline">24sp</dimen>
+
+    <!-- Component Specific -->
+    <dimen name="header_icon_size">48dp</dimen>
+    <dimen name="image_preview_height">200dp</dimen>
+    <dimen name="map_height">200dp</dimen>
+    <dimen name="spacing_8">8dp</dimen>
+    <dimen name="spacing_16">16dp</dimen>
+    <dimen name="spacing_20">20dp</dimen>
+
+    <dimen name="card_margin">16dp</dimen>
+    <dimen name="card_corner_radius">16dp</dimen>
+    <dimen name="card_elevation">8dp</dimen>
+    <dimen name="content_padding">20dp</dimen>
+    <dimen name="text_margin_start">16dp</dimen>
+    <dimen name="text_margin_top">4dp</dimen>
+    <dimen name="button_margin_top">84dp</dimen>
+    <dimen name="button_margin">8dp</dimen>
+
+    <!-- Image Sizes -->
+    <dimen name="profile_image_size">72dp</dimen>
+
+    <!-- Text Sizes -->
+
+    <dimen name="text_size_description">16sp</dimen>
+    <dimen name="text_size_date">14sp</dimen>
+</resources>

@@ -1,0 +1,64 @@
+services:
+  app:
+    container_name: auth
+    build:
+      context: .
+    ports:
+      - "8091:8091"
+    depends_on:
+      - db
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql-container:3306/df
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: root
+    networks:
+      - chek_app-network
+
+  db:
+    image: mysql:5.7
+    container_name: mysql-container
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: df
+    ports:
+      - "3307:3306"
+    networks:
+      - chek_app-network
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin-container
+    environment:
+      PMA_HOST: mysql-container
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - "8082:80"
+    networks:
+      - chek_app-network
+  sonarqube:
+    image: sonarqube:community
+    container_name: sonarqube
+    ports:
+      - "9000:9000"
+    environment:
+      SONAR_JDBC_URL: jdbc:postgresql://sonarqube-db:5432/sonarqube
+      SONAR_JDBC_USERNAME: sonar
+      SONAR_JDBC_PASSWORD: sonar
+    depends_on:
+      - sonarqube-db
+    networks:
+      - chek_app-network
+
+  sonarqube-db:
+    image: postgres:13
+    container_name: sonarqube-db
+    environment:
+      POSTGRES_USER: sonar
+      POSTGRES_PASSWORD: sonar
+      POSTGRES_DB: sonarqube
+    networks:
+      - chek_app-network
+
+networks:
+  chek_app-network:
+    driver: bridge 

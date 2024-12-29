@@ -1,0 +1,23 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Fond principal -->
+    <solid android:color="#FFFFFF" />
+
+    <!-- Coins arrondis différents pour chaque angle -->
+    <corners
+        android:topLeftRadius="16dp"
+        android:topRightRadius="16dp"
+        android:bottomLeftRadius="16dp"
+        android:bottomRightRadius="16dp" />
+
+    <!-- Bordure décorative -->
+    <stroke
+        android:width="2dp"
+        android:color="#4F5D75" />
+
+    <!-- Padding interne pour la bordure -->
+    <padding
+        android:left="2dp"
+        android:top="2dp"
+        android:right="2dp"
+        android:bottom="2dp" />
+</shape>

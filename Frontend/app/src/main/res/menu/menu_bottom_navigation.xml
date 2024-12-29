@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_my_help"
+        android:icon="@drawable/ic_help"
+        android:title="My Help" />
+    <item
+        android:id="@+id/nav_donate"
+
+        android:title="Donate"
+        android:icon="@drawable/lettre"
+
+        />
+</menu>

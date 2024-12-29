@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_light"
+    tools:context=".fragment.NotifFragment"
+    android:padding="16dp">
+
+    <!-- BottomNavigationView en haut -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="8dp"
+        android:layout_gravity="top"
+        android:layout_marginBottom="16dp"
+        app:cardBackgroundColor="@color/card_background"
+        app:strokeWidth="1dp"
+        app:strokeColor="@color/blue_primary">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:menu="@menu/menu_bottom_navigation"
+            app:labelVisibilityMode="labeled"
+            app:itemIconTint="@color/blue_primary"
+            app:itemTextColor="@color/blue_primary"
+            app:backgroundTint="@android:color/white" />
+    </androidx.cardview.widget.CardView>
+
+    <!-- Conteneur de fragments -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="8dp"
+        android:layout_marginTop="100dp"
+        app:cardBackgroundColor="@color/card_background"
+        app:strokeWidth="1dp"
+        app:strokeColor="@color/blue_primary">
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/fragmentContainerView3"
+            android:name="androidx.navigation.fragment.NavHostFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:navGraph="@navigation/nav_notif" />
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

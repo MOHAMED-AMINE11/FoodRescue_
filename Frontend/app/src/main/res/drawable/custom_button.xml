@@ -1,0 +1,16 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#1C89C4" /> <!-- Couleur plus sombre quand appuyé -->
+            <corners android:radius="16dp" />
+            <stroke android:width="1dp" android:color="#1482B5" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#29ACE8" /> <!-- Couleur normale -->
+            <corners android:radius="16dp" />
+            <stroke android:width="1dp" android:color="#1C89C4" />
+        </shape>
+    </item>
+</selector>

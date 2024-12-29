@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#F3F4F6"
+    tools:context=".fragment.HomePageFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#F3F4F6"
+        tools:context=".fragment.HomePageFragment">
+
+        <!-- CardView with rounded border and violet gradient background, aligned to the top -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="149dp"
+            android:layout_margin="16dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="6dp"
+            app:cardBackgroundColor="@android:color/transparent"
+            android:id="@+id/cardView">
+
+            <!-- Custom background for the CardView -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="16dp"
+                android:background="@drawable/gradient_card_background"
+                android:elevation="4dp"
+                android:clipToOutline="true">
+
+                <!-- Informative Text -->
+                <TextView
+                    android:id="@+id/infoText"
+                    android:layout_width="213dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="11dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_marginBottom="16dp"
+                    android:lineSpacingExtra="4dp"
+                    android:text="Many people need food. Your help can make a difference"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+
+                <!-- Action Button -->
+                <Button
+                    android:id="@+id/helpButton"
+                    android:layout_width="99dp"
+                    android:layout_height="33dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="26dp"
+                    android:layout_marginBottom="11dp"
+                    android:backgroundTint="#FF5722"
+                    android:elevation="6dp"
+                    android:paddingStart="24dp"
+                    android:paddingEnd="24dp"
+                    android:text="Help Now"
+                    android:textColor="#FFFFFF"
+                    android:textSize="11dp" />
+
+                <!-- Image on the Right -->
+                <ImageView
+                    android:id="@+id/rightImage"
+                    android:layout_width="121dp"
+                    android:layout_height="133dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="9dp"
+                    android:contentDescription="Image Description"
+                    android:elevation="4dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/donnate" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Title for the first RecyclerView (Association) -->
+        <TextView
+            android:id="@+id/firstRecyclerViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:text="Associations"
+            android:textColor="#FF5722"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- Horizontal RecyclerView -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/firstRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="152dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal" />
+
+        <!-- Title for the second RecyclerView (Donation) -->
+        <TextView
+            android:id="@+id/secondRecyclerViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:text="Donations"
+            android:textColor="#FF5722"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- Vertical RecyclerView -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/secondRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="440dp"
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+</FrameLayout>

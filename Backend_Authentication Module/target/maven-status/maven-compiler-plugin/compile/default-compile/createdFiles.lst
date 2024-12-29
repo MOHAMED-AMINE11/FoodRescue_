@@ -1,0 +1,12 @@
+com\example\backend_pfm\controller\AuthController.class
+com\example\backend_pfm\beans\User.class
+com\example\backend_pfm\service\UserService.class
+com\example\backend_pfm\config\SecurityConfig.class
+com\example\backend_pfm\controller\UserController.class
+com\example\backend_pfm\dto\SignupRequest.class
+com\example\backend_pfm\config\JwtService.class
+com\example\backend_pfm\BackendPfmApplication.class
+com\example\backend_pfm\dto\LoginRequest.class
+com\example\backend_pfm\repository\UserRepository.class
+com\example\backend_pfm\config\JwtAuthenticationFilter.class
+com\example\backend_pfm\dto\AuthResponse.class
