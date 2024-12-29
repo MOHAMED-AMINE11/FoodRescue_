@@ -332,7 +332,5 @@ We welcome contributions from everyone, and we appreciate your help to make this
 
 
 ## Team
-
-- Mohamed Lachgar ([Researchgate](https://www.researchgate.net/profile/Mohamed-Lachgar))
 - Mohamed Amine EL MASKYNE ([Email](mailto:mohamedamine.elmaskyne@gmail.com))
 - Abdellah EL GHARBI ([Email](mailto:abdellah.elgharbi2002@gmail.com))
