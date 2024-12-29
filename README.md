@@ -2,7 +2,7 @@
 
 
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/4047a52a-de75-4592-affe-60a4aeb5a3d4" alt="Project Logo" width="400" height="800"/>
+    <img src="https://github.com/user-attachments/assets/9182bb20-c10a-474d-82c4-c1d9845efe04" alt="Project Logo" width="400" height="800"/>
 </p>
 
 FoodRescue is an innovative mobile application designed to address the critical challenge of food waste while combating food insecurity through efficient resource redistribution and community engagement.
