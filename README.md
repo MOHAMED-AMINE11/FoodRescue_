@@ -31,7 +31,7 @@ FoodRescue is an innovative mobile application designed to address the critical 
 FoodRescue addresses the global challenge where one-third of food production is wasted while millions face hunger. Our platform creates an efficient digital ecosystem connecting food surplus holders with those in need.
 
 ## Software Architecture
-![Software Architecture](https://github.com/user-attachments/assets/72415312-164f-4d38-8015-eaec3b2812c3)
+![Software Architecture](https://github.com/user-attachments/assets/9182bb20-c10a-474d-82c4-c1d9845efe04)
 
 Our application follows a modern, layered architecture:
 
